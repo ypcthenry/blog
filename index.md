@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 肆意雪的Blog----Yesterday,you said tormmow.
+title: 肆意雪的Blog----Yesterday,you said tomorrow.
 ---
 <center><h2>{{ page.title }}</h2></center>
 <p><h4>最新文章</h4></p>
