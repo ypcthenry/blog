@@ -3,7 +3,7 @@ layout: default
 title: 肆意雪的Blog----Yesterday, you said tomorrow.
 ---
 <center><h2>{{ page.title }}</h2></center>
-How to stop time: **kiss**.
+&copy;How to stop time: **kiss**.
 How to travel in time: **read**.
 How to feel time: **write**.
 How to waste time: **social media**.
