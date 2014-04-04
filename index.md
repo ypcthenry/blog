@@ -5,7 +5,7 @@ title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 <center><h3>{{ page.title }}</h3></center>  
 
 
-<span style="margin-left:150px;margin-right:150px"> &copy; How to stop time: kiss.How to travel in time: **read**.How to feel time: **write**. </span> 
+<span style="margin-left:150px;margin-right:150px">&nbsp;&copy; How to stop time: kiss.How to travel in time: **read**.How to feel time: **write**. </span> 
 
       
 <div style="margin-left:150px;margin-right:150px"><hr/>
