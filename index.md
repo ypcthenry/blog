@@ -6,7 +6,7 @@ title: 肆意雪的Blog----Yesterday, you said tomorrow.
 
 
 &copy;How to stop time: kiss.How to travel in time: **read**.How to feel time: **write**.How to waste time: social media.        
-***  
+* * * 
 
 ###最新文章###
 <ul>
