@@ -21,8 +21,4 @@ title:肆意雪's Blog—— Yesterday, you said tomorrow.
 
 * * *  
 
-<div>
-<div style="float:left"><a href="http://www.danasoft.com"><img src="http://www.danasoft.com/vipersig.jpg" border="0"></a><p><div style="font-family:Arial,sans-serif;font-size:11px;">Sign by Danasoft - <a href="http://www.danasoft.com">Get Your Sign</a></p></div></div>
-<div style="float:right">Copyright&nbsp;@&nbsp;2014&nbsp;Ypchenry,Hosted by <a href="https://github.com/">GitHub</div>
-</div>
 
