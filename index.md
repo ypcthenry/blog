@@ -21,7 +21,7 @@ title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 
 * * *  
 <div>
-<a href="http://www.danasoft.com"><img src="http://www.danasoft.com/vipersig.jpg" border="0"></a><p>
+<a href="http://www.danasoft.com"><img src="http://www.danasoft.com/vipersig.jpg" border="0"></a>
 Copyright @ 2014 Ypchenry ,Hosted by <a href="https://github.com">GitHub</a>
 </div>
 
