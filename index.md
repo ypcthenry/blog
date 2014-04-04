@@ -21,6 +21,6 @@ title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 
 * * *  
 
-GitHub
+Copyright @ 2014 Ypchenry ,Hosted by GitHub
 
 
