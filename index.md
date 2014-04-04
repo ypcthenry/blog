@@ -2,7 +2,7 @@
 layout: default
 title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 ---
-<center><h2>{{ page.title }}</h2></center>  
+<center><h3>{{ page.title }}</h3></center>  
 
 
 &copy;How to stop time: kiss.How to travel in time: **read**.How to feel time: **write**.  
