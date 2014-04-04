@@ -23,7 +23,7 @@ title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 <hr/>
 <div style="margin-left:0px;margin-right:0px">
 <div style="float:left"><a href="http://www.danasoft.com"><img src="http://www.danasoft.com/vipersig.jpg" border="0"></a></div>
-<div style="float:right;margin-right:200px">Copyright &copy; 2014 Ypchenry ,Hosted by <a href="https://github.com">GitHub</a></div>
+<div style="float:right;margin-right:200px">Copyright &copy; 2014 Ypchenry ,Hosted by <a href="https://github.com" style="text-decoration:none">GitHub</a></div>
 </div>
 </div>
 
