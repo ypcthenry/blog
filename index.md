@@ -11,8 +11,14 @@ title: 肆意雪的Blog----Yesterday, you said tomorrow.
 * * * 
 
 ###最新文章###
+<div style="height:800px;width:1000px;clear:both;">
 <ul>
 {% for post in site.posts %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-</ul>    
+</ul> 
+</div>   
+
+* * *  
+
+
