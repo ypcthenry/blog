@@ -10,7 +10,7 @@ title: 肆意雪's Blog—— Yesterday, you said tomorrow.
       
 * * * 
 
-###最新文章###
+最新文章
 <div style="height:400px;width:800px;clear:both;">
 <ul>
 {% for post in site.posts %}
