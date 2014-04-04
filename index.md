@@ -1,6 +1,6 @@
 ---
 layout: default
-title:肆意雪's Blog—— Yesterday, you said tomorrow.
+title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 ---
 <center><h2>{{ page.title }}</h2></center>  
 
