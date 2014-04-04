@@ -11,7 +11,7 @@ title: 肆意雪's Blog—— Yesterday, you said tomorrow.
 * * * 
 
 <p>最新文章</p>
-<div style="height:400px;width:800px;clear:both;">
+<div style="height:360px;width:800px;clear:both;">
 <ul>
 {% for post in site.posts %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
