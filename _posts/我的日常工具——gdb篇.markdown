@@ -1,12 +1,5 @@
+#我的日常工具——gdb篇
 ---
-layout: default
-title: 我的日常工具——gdb篇
----
-<h2>{{ page.title }}</h2>
-<p>{{ page.date | date_to_string }}</p>
-
-
-***
 **1.gdb的原理**
 熟悉linux的同学面试官会问你用过gdb么？那好用过，知道gdb是怎么工作的么？然后直接傻眼。。。
 gdb是怎么接管一个进程？并且能获取这个进程的变量、堆栈、寄存器、内存映像等信息的呢？还可以打断点执行？这些都是gdb一些基本的功能。
@@ -204,15 +197,3 @@ $4 = {int ()} 0x4004f0 <main>
 [1]:http://man7.org/linux/man-pages/man2/ptrace.2.html
 [2]:http://coolshell.cn/articles/11377.html
 [3]:http://www.cnblogs.com/fly1988happy/archive/2012/04/16/2452021.html
-
-<!-- UY BEGIN -->
-<div>
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-<!-- UY END -->
-</div>
-<hr/>
-<div style="margin-left:0px;margin-right:0px">
-<div style="float:left"><a href="http://www.danasoft.com"><img src="http://www.danasoft.com/vipersig.jpg" border="0"></a></div>
-<div style="float:right;margin-right:200px">Copyright &copy; 2014 Ypchenry ,Hosted by <a href="https://github.com" style="text-decoration:none">GitHub</a></div>
-</div>
