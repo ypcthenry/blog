@@ -7,6 +7,15 @@ title: 我的日常工具——gdb篇
 
 
 ***
+**1.gdb的原理**
+熟悉linux的同学面试官会问你用过gdb么？那好用过，知道gdb是怎么工作的么？然后直接傻眼。。。
+gdb是怎么接管一个进程？并且能获取这个进程的变量、堆栈、寄存器、内存映像等信息的呢？还可以打断点执行？这些都是gdb一些基本的功能。
+很简单，ptrace，好来看看[manual][1]上这个系统调用的定义。
+```c
+#include <sys/ptrace.h>
+long ptrace(enum __ptrace_request request, pid_t pid,void *addr, 
+                    void *data);
+```  
 
 <!-- UY BEGIN -->
 <div>
