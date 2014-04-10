@@ -120,6 +120,7 @@ End of assembler dump.
 +  对于char *a来说，汇编代码用了mov指令，mov 0×8(%rax),   %rax
 
 
+
 <!-- UY BEGIN -->
 <div>
 <div id="uyan_frame"></div>
