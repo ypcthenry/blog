@@ -7,7 +7,8 @@ title: 我的日常工具——gdb篇
 
 
 ***
-**1.gdb的原理**
+**1.gdb的原理**  
+
 熟悉linux的同学面试官会问你用过gdb么？那好用过，知道gdb是怎么工作的么？然后直接傻眼。。。
 gdb是怎么接管一个进程？并且能获取这个进程的变量、堆栈、寄存器、内存映像等信息的呢？还可以打断点执行？这些都是gdb一些基本的功能。
 很简单，ptrace，好来看看[manual][1]上这个系统调用的定义。
@@ -19,9 +20,11 @@ long ptrace(enum __ptrace_request request, pid_t pid,void *addr,
 *简单描述：*
 `ptrace系统调用提供一种方法使某一父进程(叫做"tracer")可以观察并控制另外一个进程(叫做"tracee")的执行，而且还可以检查并改变执行tracee进程时的内存映像和寄存器。这个系统调用主要用来实现断点调试和函数调用跟踪（ It is primarily used to implement breakpoint debugging and system call tracing）。`
 
-**2.gdb将高级语言转成汇编**
+**2.gdb将高级语言转成汇编**  
+
 对于c、c++这样的语言，如果不注意内存释放经常会出现“野指针”、“空指针”等，程序dump掉的时候要找清楚那地方crash了，汇编指令显的非常重要。
-比如：
+比如：  
+
  `程序1：`
 ```c
 #include <stdio.h>
