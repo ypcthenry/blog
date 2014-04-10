@@ -114,28 +114,11 @@ Dump of assembler code for function main:
    0x000000000040056d <+61>:	retq 
 End of assembler dump.
 ```
-上面看到程序执行时用bt提示程序在12行dump掉了，然后转换成汇编代码可以看到12行执行的时mov指令。
+上面看到程序执行时用bt提示程序在12行dump掉了，然后转换成汇编代码可以看到12行执行的时mov指令。   
+
 >+  对于char a[0]来说，汇编代码用了lea指令，lea   0×8(%rax),   %rax
 >+  对于char *a来说，汇编代码用了mov指令，mov 0×8(%rax),   %rax
 
-lea指令是把地址放进去，而mov是把内容放进去，而`NULL指针`的内容是不能访问的。这就是前面提到的*a 和a[0]的不同。[^struct]
-`ni`和`si`是单步执行汇编命令，和`next`与`step`一样，n表示在当前函数一步步执行，s代表跟踪函数，可以从当前函数跳到另一个函数。
-`display`可以显示一些寄存器内容，如`display /x $pc`显示程序计数器。
-`info reg`显示所有寄存器内容。
-    tips——关于NULL指针：
-
-  如果程序里有NULL指针，NULL指针会指向系统为程序分配的段地址的开始，系统为段开头64k做苛刻的规定。程序中（低访问权限）访问要求高访问权限的这64K内存被视作是不容许的，会引发Access Volitation 错误。64K内存是一块保留内存（即不能被程序动态内存分配器分配，不能被访问，也不能被使用），就是简单的保留，不作任何使用。[^null]（这段话正确与否有待考究）
-下面的代码是对空指针的测试：
-```c
-#define NULL (void*)0
-int main()
-{
-  int *p1 = NULL;
-  int *p2 = NULL;
-  int *p3 = NULL;
-  return 0;
-}
-```
 
 <!-- UY BEGIN -->
 <div>
