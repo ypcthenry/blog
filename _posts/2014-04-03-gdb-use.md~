@@ -15,7 +15,8 @@ gdb是怎么接管一个进程？并且能获取这个进程的变量、堆栈�
 #include <sys/ptrace.h>
 long ptrace(enum __ptrace_request request, pid_t pid,void *addr, 
                     void *data);
-```  
+```
+
 
 <!-- UY BEGIN -->
 <div>
